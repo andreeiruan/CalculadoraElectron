@@ -1,0 +1,34 @@
+.numeros {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    width: 170px;
+}
+
+.botao {
+    width: 50px;
+    padding: 10px;
+    margin: 2px;
+}
+
+.operadores {
+    display: flex;
+    width: 60px;
+    flex-wrap: wrap;
+    margin-top: -215px;
+    margin-left: 165px;
+}
+
+.funcoes {
+    display: flex;
+    width: 170px;
+    padding: 0;
+}
+
+.resp {
+    /* background-color: aqua; */
+    width: 215px;
+    margin-left: 3px;
+    height: 30px;
+    text-align: end;
+}
