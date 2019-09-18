@@ -10,19 +10,18 @@
 </head>
 
 <body>
-    <h1>calculadora</h1>
-    <div class="resp" id="tela">
-        <span class="num1" id="num1"></span>
-        <span class="oper" id="opr"></span>
-        <span class="num2" id="num2"></span>
-        <span id="="></span>
-        <span id="res"></span>
-    </div>
+    <h1>Calculadora</h1>
+
     <div class="calculadora" id="calc">
+        <div class="resp" id="tela">
+            <span class="num1" id="num1"></span>
+            <span class="oper" id="opr"></span>
+            <span class="num2" id="num2"></span>
+        </div>
         <div class="funcoes" id="func">
-            <input type="button" class="botao" value="CE">
-            <input type="button" class="botao" value="C">
-            <input type="button" class="botao" value="<x">
+            <input type="button" class="botao" id="ce" value="CE">
+            <input type="button" class="botao" id="c" value="C">
+            <input type="button" class="botao" id="x" value="<x">
         </div>
         <div class="numeros" id="num">
             <input class="botao num" type="button" value="7">
@@ -34,16 +33,16 @@
             <input class="botao num" type="button" value="1">
             <input class="botao num" type="button" value="2">
             <input class="botao num" type="button" value="3">
-            <input class="botao" type="button" value="+-">
+            <input class="botao" type="button" id="+-" value="+-">
             <input class="botao num" type="button" value="0">
-            <input class="botao" type="button" value=",">
+            <input class="botao" type="button" id="sep" value=",">
         </div>
         <div class="operadores" id="operator">
             <input class="botao opr" type="button" value="/">
             <input class="botao opr" type="button" value="*">
             <input class="botao opr" type="button" value="-">
             <input class="botao opr" type="button" value="+">
-            <input class="botao igual" type="button" value="=">
+            <input class="botao" id="igual" type="button" value="=">
         </div>
     </div>
 
